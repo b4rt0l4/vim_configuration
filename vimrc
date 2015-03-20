@@ -18,6 +18,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'rkulla/pydiction'
 Plugin 'klen/python-mode'
+Plugin 'kien/ctrlp.vim'
 
 
 " All of your Plugins must be added before the following line
@@ -170,9 +171,9 @@ set smartcase
 " ============================================================================
 " Python IDE Setup
 " ============================================================================
-" Settings for vim-powerline
+" Settings for vim-airline
 " cd ~/.vim/bundle
-" git clone git://github.com/Lokaltog/vim-powerline.git
+" git clone git://github.com/bling/vim-airline.git
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
@@ -181,10 +182,10 @@ let g:airline#extensions#tabline#enabled = 1
 " Settings for ctrlp
 " cd ~/.vim/bundle
 " git clone https://github.com/kien/ctrlp.vim.git
-"" let g:ctrlp_max_height = 30
-"" set wildignore+=*.pyc
-"" set wildignore+=*_build/*
-"" set wildignore+=*/coverage/*
+let g:ctrlp_max_height = 30
+set wildignore+=*.pyc
+set wildignore+=*_build/*
+set wildignore+=*/coverage/*
 
 
 " Settings for jedi-vim
