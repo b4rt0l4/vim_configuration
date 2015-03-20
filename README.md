@@ -22,5 +22,4 @@ Abrir vim Ejecutar :PluginInstall para instalar los plugins
 
 Instalar fuentes para powerline Para visualizar los símbolos hace falta alguna fuente parcheada, obtenerla con git clone https://github.com/powerline/fonts.git y ejecutar el install.sh
 
-Configurar ruta de diccionario pydiction, por ejemplo let g:pydiction_location = '/home/bart/.vim/bundle/pydiction/complete-dict'
-Ha de ser ruta absoluta
+Configurar ruta de diccionario pydiction, por ejemplo let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'

@@ -62,7 +62,7 @@ let g:NERDTreeIgnore=[
 let g:jedi#popup_on_dot = 1
 
 "pydiction
-let g:pydiction_location = '/home/bart/.vim/bundle/pydiction/complete-dict'
+let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 
 " Cuantas lineas del historial VIM debe recordar
 set history=500
