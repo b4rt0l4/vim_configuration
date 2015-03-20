@@ -15,6 +15,8 @@ Plugin 'mivok/vimtodo'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'rkulla/pydiction'
 
 
 " All of your Plugins must be added before the following line
@@ -56,7 +58,11 @@ let g:NERDTreeIgnore=[
 \'\.tmp$', '^NTUSER.DAT*', '\.zip$', '\.pdb$', '\.dll$',
 \'tags', 'bin', 'obj', '\.suo$', '\.vspscc$', '\.*\~']
 
+"jedi
+let g:jedi#popup_on_dot = 1
 
+"pydiction
+let g:pydiction_location = '/home/bart/.vim/bundle/pydiction/complete-dict'
 
 " Cuantas lineas del historial VIM debe recordar
 set history=500
