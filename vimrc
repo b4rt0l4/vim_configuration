@@ -163,9 +163,9 @@ set smartcase
 
 " Disable stupid backup and swap files - they trigger too many events
 " for file system watchers
-"" set nobackup
-"" set nowritebackup
-"" set noswapfile
+set nobackup
+set nowritebackup
+set noswapfile
 
 
 " ============================================================================
@@ -287,7 +287,7 @@ set title " Muestra el título en la barra de título de la consola
 set pastetoggle=<F3> " Press F3 for toggle paste mode
 set cursorline " Resalta la linea donde se encuentra el cursor
 set colorcolumn=81 " Marca la columna 81 con una línea resaltada
-let &colorcolumn=join(range(81,999),",")
+"" let &colorcolumn=join(range(81,999),",")
 
 
 
