@@ -65,6 +65,23 @@ scriptencoding utf-8
 let mapleader = ","
 
 
+" teclas de dirección en el modo normal como en el teclado español
+nnoremap j h
+nnoremap k j
+nnoremap l k
+nnoremap ñ l
+
+" teclas para movernos por paneles como en el teclado español
+" nnoremap j h
+" nnoremap k j
+" nnoremap l k
+" nnoremap ñ l
+" nnoremap J H
+" nnoremap K J
+" nnoremap L K
+" nnoremap Ñ L 
+
+
 " Bind nohl
 " Removes highlight of your last search
 " ``<C>`` stands for ``CTRL`` and therefore ``<C-n>`` stands for ``CTRL+n``
