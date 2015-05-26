@@ -16,7 +16,9 @@ ln -s ~/.vim/gvimrc ~/.gvimrc
 
 cd ~/.vim
 
-git submodule init git submodule update
+git submodule init
+
+git submodule update
 
 Abrir vim Ejecutar :PluginInstall para instalar los plugins
 
