@@ -36,7 +36,9 @@ git submodule init
 git submodule update
 
 
+#Install plugins on VIM
 Open VIM and execute :PluginInstall to install plugins.
 
-Configure path for pydiction dictionary. 
+
+#Configure path for pydiction dictionary. 
 For example let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
