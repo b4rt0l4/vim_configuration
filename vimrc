@@ -19,6 +19,7 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'rkulla/pydiction'
 Plugin 'klen/python-mode'
 Plugin 'kien/ctrlp.vim'
+Plugin 'mattn/emmet-vim'
 
 
 " All of your Plugins must be added before the following line
